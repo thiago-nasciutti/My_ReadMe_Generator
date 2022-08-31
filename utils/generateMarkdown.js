@@ -67,7 +67,7 @@ function generateMarkdown(data) {
   ## License Link
   ${renderLicenseLink(data.license)}
 
-  ## User Name
+  ## Github User Name
   ${data.userName}
 
   ## E-Mail
