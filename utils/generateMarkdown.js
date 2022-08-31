@@ -2,16 +2,16 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   if (license == "Apache 2.0") {
-    return `[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)]`;
+    return `![License: Apache](https://img.shields.io/badge/License-Apache_2.0-blue.svg)`;
   }
   if (license == "Boost 1.0") {
-    return `[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)]`;
+    return `![License: Boost](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)`;
   }
   if (license == "BSD 3-Clause") {
-    return `[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)]`;
+    return `![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)`;
   }
   if (license == "BSD 2-Clause") {
-    return `[![License](https://img.shields.io/badge/License-BSD_2--Clause-orange.svg)]`;
+    return `![License](https://img.shields.io/badge/License-BSD_2--Clause-orange.svg)`;
   }
   if (license == "No license") {
     return ``;
@@ -48,19 +48,30 @@ function generateMarkdown(data) {
   return `# ${data.title}
 
   ## Description
-    ${data.descripition}
-    
+  ${data.description}
+  
+  ## Table of Content
+  * [Installation](#installation)
+  * [Usage](#installation)
+  * [License](#license)
+  
   ## Installation
-    ${data.installation}
-
+  ${data.installation}
+  
   ## Usage
-    ${data.usage}
+  ${data.usage}
 
   ## License Badge
-    ${renderLicenseBadge(data.license)}
+  ${renderLicenseBadge(data.license)}
 
   ## License Link
-    ${renderLicenseLink(data.license)}
+  ${renderLicenseLink(data.license)}
+
+  ## User Name
+  ${data.userName}
+
+  ## E-Mail
+  ${data.email}
   `;
 }
 

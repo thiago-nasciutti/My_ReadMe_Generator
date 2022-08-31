@@ -40,12 +40,22 @@ const questions = [
   {
     type: "input",
     name: "contributing",
-    message: "List your collaborator",
+    message: "How to contribute?",
   },
   {
     type: "input",
     name: "tests",
     message: "Write tests for your application",
+  },
+  {
+    type: "input",
+    name: "userName",
+    message: "What is your github user name?",
+  },
+  {
+    type: "input",
+    name: "email",
+    message: "What is your email address?",
   },
 ];
 
