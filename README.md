@@ -7,20 +7,20 @@ The purpose of this project is help users to create README Files.
 
 STEP 1. Answer the following questions:
 
-a)  What is your Project Title?
-b)  Describe your project.
-c)  What are the steps required to install your project?
-d)  Provide instructions for use.
-e)  Choose a license:
-    - Apache 2.0
-    - Boost 1.0
-    - BSD 3-Clause
-    - BSD 2-Clause
-    - No license
-f)  How to contribute?
-g)  Write tests for your application
-h)  What is your github user name?
-i)  What is your email address?
+* What is your Project Title?
+* Describe your project.
+* What are the steps required to install your project?
+* Provide instructions for use.
+* Choose a license:
+    * Apache 2.0
+    * Boost 1.0
+    * BSD 3-Clause
+    * BSD 2-Clause
+    * No license
+* How to contribute?
+* Write tests for your application
+* What is your github user name?
+* What is your email address?
 
 ![Screen Shot 2022-08-31 at 1 28 00 PM](https://user-images.githubusercontent.com/108194923/187741756-bdf937de-637e-4260-8280-890c61386057.png)
 
