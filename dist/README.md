@@ -1,7 +1,7 @@
-# Project Readme Generator
+# Readme generator
 
   ## Description
-  This is an application to help user generate readme
+  this is an application to help users to create readme
   
   ## Table of Content
   * [Installation](#installation)
@@ -9,18 +9,18 @@
   * [License](#license)
   
   ## Installation
-  
+  step1 - step2 -step3
   
   ## Usage
   Follow the questions and answer
 
   ## License Badge
-  ![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)
+  ![License: Apache](https://img.shields.io/badge/License-Apache_2.0-blue.svg)
 
   ## License Link
-  https://opensource.org/licenses/BSD-3-Clause
+  https://opensource.org/licenses/Apache-2.0
 
-  ## User Name
+  ## Github User Name
   nasciutti.thiago
 
   ## E-Mail
